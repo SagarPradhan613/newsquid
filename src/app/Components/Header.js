@@ -11,16 +11,16 @@ const Header = ({ scrollToRef, handleToggleModal }) => {
                 </div>
 
                 <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
-                    <p onClick={() => scrollToRef('section1')} className="lg:text-base text-xs font-medium text-black">How to buy</p>
+                    <p onClick={() => scrollToRef('section1')} className="lg:text-base cursor-default text-xs font-medium text-black">How to buy</p>
                 </div>
                 <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
-                    <p onClick={() => scrollToRef('section2')} className="lg:text-base text-xs font-medium text-black">Tokenomics</p>
+                    <p onClick={() => scrollToRef('section2')} className="lg:text-base text-xs cursor-default font-medium text-black">Tokenomics</p>
                 </div>
                 <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
-                    <p onClick={() => scrollToRef('section3')} className="lg:text-base text-xs font-medium text-black">Roadmap</p>
+                    <p onClick={() => scrollToRef('section3')} className="lg:text-base text-xs cursor-default font-medium text-black">Roadmap</p>
                 </div>
                 <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
-                    <p onClick={() => scrollToRef('section4')} className="lg:text-base text-xs font-medium text-black">About</p>
+                    <p onClick={() => scrollToRef('section4')} className="lg:text-base text-xs cursor-default font-medium text-black">About</p>
                 </div>
 
                 <div className="flex justify-center items-center">
