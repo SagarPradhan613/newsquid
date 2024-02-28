@@ -42,3 +42,52 @@ body {
   }
 }
 
+@media screen and (max-width:1080px) {
+  .responsive-squidtop{
+   display: none;
+  }
+  .responsive-chat{
+    top:-4rem;
+    width: 50%;
+  }
+  .responsive-whatever{
+    width: 80%;
+    margin-left: -8rem;
+  }
+  .responsive-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .responsive-tokenomics-left{
+    width: 50%;
+    margin-left: 0;
+  }
+  .responsive-map{
+    width: 50%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .responsive-map-chat{
+    width: 50%;
+    margin-top: 0;
+    
+  }
+}
+
+@media screen and (min-width:720px) and (max-width:1080px){
+  .responsive-chat{
+    top:-4rem;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width:1080px) and (max-width:1300px){
+  .responsive-chat{
+    top: 14rem;
+  }
+}
